@@ -1,0 +1,67 @@
+{
+    "type": "DropdownListContentsPanel", "name": "DropdownListContents",
+    "fields": {
+        "rect": { "width": 625, "height": 600 },
+        "priority": 2000000001,
+        "drawTint": false,
+        "scrollBarOffset": { "x": -15, "y": 15 },
+        "scrollBarSize": { "x": 25, "y": 540 },
+        "scrollBarBackgroundOffset": { "x": -18, "y": 0 },
+    },
+    "children": [
+        {
+            "type": "ListWidget", "name": "Items",
+            "fields": {
+                "fitToParent": true,
+                "isHoverList": true,
+                "selectorName": "Selector",
+            },
+            "children": [
+                {
+                    "type": "HoverListItemWidget", "name": "ItemTemplate",
+                    "fields": {
+                        "rect": { "width": 625, "height": 40 },
+                        "baseColor": "$FontColorGold",
+                        "hoveredColor": "$FontColorWhite",
+                        "sound": "cursor_menu_select_hd",
+                    },
+                    "children": [
+                        {
+                            "type": "GrowableImageWidget", "name": "Image",
+                            "fields": {
+                                "rect": { "width": 625, "height": 40 },
+                                "filename": "PANEL/DropdownTile_Center",
+                                "leftCap/filename": "PANEL/DropdownTile_Left",
+                                "rightCap/filename": "PANEL/DropdownTile_Right"
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "TextBox",
+                            "fields": {
+                                "fitToParent": true,
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Widget", "name": "Selector",
+                },
+            ]
+        },
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "filename": "Lobby\\Final\\LobbyDropdownScrollBar",
+            },
+        },
+        {
+            "type": "ScrollControllerWidget", "name": "ScrollController",
+            "fields": {
+                "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                "barFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollIndicator",
+                "viewName": "Items"
+            }
+        },
+    ]
+}

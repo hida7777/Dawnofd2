@@ -1,0 +1,229 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/blood_crescent/blood_crescent.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/blood_crescent/weapon_blood_crescent_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/blood_crescent/weapon_blood_crescent_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/blood_crescent/weapon_blood_crescent_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/blood_crescent/weapon_blood_crescent_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_sw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "blood_crescent",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3410641471,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_sw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1,
+                                "y": 1,
+                                "z": 1
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 0.98,
+                                "y": 1.02,
+                                "z": 0.98
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 3.08,
+                                "y": 3.12,
+                                "z": 3.08
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.08,
+                                "y": 1.12,
+                                "z": 1.08
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 0.95,
+                                "y": 0.99,
+                                "z": 0.95
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 3.08,
+                                "y": 3.12,
+                                "z": 3.08
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -0.2,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 0.88,
+                                "y": 0.92,
+                                "z": 0.92
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 2456053559,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_blood_crescent",
+                    "filename": "data/hd/items/weapon/sword/blood_crescent/blood_crescent.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "LevelNamePanel", "name": "HUDLevelNames",
+    "fields": {
+        "priority": -100,
+        "anchor": { "x": 0.5, "y": 0.5 },
+        "displaySeconds": 2.5,
+        "desecratedDisplaySeconds": 4.0,
+        "denOfEvilQuestHack": "@EnteringTheDenOfEvilInQuest"
+    },
+    "children": [
+        {
+            "type": "TextBoxWidget", "name": "NameText",
+            "fields": {
+                "rect": { "y": -140 },
+                "fontType": "30pt",
+                "style": {
+                    "fontColor": { "r": 255, "g": 0, "b": 0 },
+                    "alignment": { "h": "center", "v": "bottom" }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "DesecratedText",
+            "fields": {
+                "rect": { "y": -100 },
+                "fontType": "30pt",
+                "style": {
+                    "fontColor": { "r": 174, "g": 0, "b": 255 },
+                    "alignment": { "h": "center", "v": "bottom" }
+                }
+            }
+        }
+    ]
+}
