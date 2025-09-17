@@ -7,10 +7,10 @@
 Mod Download: https://github.com/hida7777/Dawnofd2/archive/refs/heads/main.zip
 Mod Config Download: https://github.com/hida7777/Dawnofd2/raw/refs/heads/main/dawnofd2.mpq/modinfo.json
 Mod Version: 1.03t
-News 1 Title: "My Mod was Updated! (Version 0.1.2.3)"
-News 1 Message: "This is some news message that I like"
-News 2 Title: "More News for the Community!"
-News 2 Message: "This is some other news message that I like"
+News 1 Title: "Welcome To Dawn Of D2"
+News 1 Message: "V 1.03"
+News 2 Title: "Discord coming soon"
+News 2 Message: "Have Fun Farming!"
 
 --General Options--
 Map Layouts: Enabled
@@ -20,7 +20,7 @@ Vault Access: Enabled
 
 --Additional Options--
 Item Icons: Enabled
-Runeword Sorting: Enabled
+Runeword Sorting: Disabled
 HUD Display: Enabled
 Monster Stats Display: Enabled
 
