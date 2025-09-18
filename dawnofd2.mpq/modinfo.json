@@ -1,33 +1,4 @@
 {
     "name": "dawnofd2",
     "savepath": "dawnofd2/"
-
-/*
---My Mod Details--
-Mod Download: https://github.com/hida7777/Dawnofd2/archive/refs/heads/main.zip
-Mod Config Download: https://github.com/hida7777/Dawnofd2/raw/refs/heads/main/dawnofd2.mpq/modinfo.json
-Mod Version: 1.03t
-News 1 Title: "Welcome To Dawn Of D2"
-News 1 Message: "V 1.03"
-News 2 Title: "Discord coming soon"
-News 2 Message: "Have Fun Farming!"
-
---General Options--
-Map Layouts: Enabled
-UI Themes: Enabled
-Customizations: Disabled
-Vault Access: Enabled
-
---Additional Options--
-Item Icons: Enabled
-Runeword Sorting: Disabled
-HUD Display: Enabled
-Monster Stats Display: Enabled
-
---Author Links--
-Discord: https://MyDiscordLink.com
-Wiki: https://MyWikiLink.com
-Patreon: https://MyPatreonLink.com
-*/
-
 }
