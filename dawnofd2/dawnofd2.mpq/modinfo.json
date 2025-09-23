@@ -1,4 +1,33 @@
 {
     "name": "dawnofd2",
     "savepath": "dawnofd2/"
+
+    /*
+--My Mod Details--
+Mod Download: https://github.com/hida7777/Dawnofd2/archive/refs/heads/main.zip
+Mod Config Download: https://MyModInfo.json
+Mod Version: 1.07
+News 1 Title: "Thanks Everyone for playing"
+News 1 Message: "Version 1.07"
+News 2 Title: "Still working on more localizations"
+News 2 Message: "Have fun!"
+
+--General Options--
+Map Layouts: Disabled
+UI Themes: Disabled
+Customizations: Disabled
+Vault Access: Disabled
+
+--Additional Options--
+Item Icons: Disabled
+Runeword Sorting: Disabled
+HUD Display: Disabled
+Monster Stats Display: Disabled
+
+--Author Links--
+Discord: https://discord.gg/NA2dmNrpUa
+Wiki: https://MyWikiLink.com
+Patreon: https://MyPatreonLink.com
+*/
+
 }
