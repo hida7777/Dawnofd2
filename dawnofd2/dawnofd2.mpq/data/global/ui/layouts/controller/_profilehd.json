@@ -63,9 +63,6 @@
         "spacing": {"leading":0.9, "kerning":0.95}
     },
 
-    // HirablesPanel
-    "SecondSetIconOffset": { "x": 175 },
-
     // SidePanel
     "LeftHingeSprite": "",
     "RightHingeSprite": "",

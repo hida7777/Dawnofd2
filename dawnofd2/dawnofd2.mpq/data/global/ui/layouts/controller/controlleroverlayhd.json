@@ -37,14 +37,14 @@
 				{
 					"type": "ControllerCursorBoundsWidget", "name": "ControllerCursorBounds",
 					"fields": {
-						"rect": { "x": -300, "y": -100, "width": 3240, "height": 2060 },
+						"fitToParent": true,
 					},
 				},
                 {
                     "type": "ImageWidget", "name": "Background",
                     "fields": {
-                        "rect": { "x": -325, "y": -90 },
-                        "filename": "Controller/Panel/MainPanelBG_Edit",
+                        "rect": { "x": 0, "y": 0 },
+                        "filename": "Controller/Panel/MainPanelBG",
                     },
                 },
                 {
@@ -118,7 +118,7 @@
                 {
                     "type": "ButtonLegendWidget", "name": "Legend",
                     "fields": {
-                        "rect": { "x": 0, "y": 1941, "width": 2880, "height": 103 },
+                        "rect": { "x": 0, "y": 1661, "width": 2880, "height": 103 },
                         "text": { "style": "$StyleButtonLegend" },
                     },
                 },

@@ -2,7 +2,8 @@
     "basedOn": "NotificationPanelHD.json",
     "type": "NotificationPanel", "name": "NotificationPanel",
     "fields": { 
-        "rect": { "x": 0, "y": -615, "width": 1020, "height": 146 },
+        "priority": 9002,
+        "rect": { "x": 0, "y": -500, "width": 1200, "height": 244 },
     },
     "children": [
         {
