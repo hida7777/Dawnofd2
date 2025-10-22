@@ -6,13 +6,11 @@
         "inactiveWeaponSwapFontColor": "$TabsInactiveTextColor",
     },
     "children": [
-        {
-            "type": "ClickCatcherWidget", "name": "click_catcher",
-        },
+
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "PANEL\\Inventory\\Background"
+                "filename": "PANEL\\Inventory\\Background_Expanded2"
             },
         },
         {
@@ -23,9 +21,12 @@
         },
         {
             "type": "TextBoxWidget", "name": "gold_amount",
+        },
+        {
+            "type": "TextBoxWidget", "name": "gold_amount",
             "children": [
                 {
-                    "type": "FocusableWidget", "name": "gold_amount_tooltip",
+                    "type": "FocusableWidget", "name": "gold_amount_tooltip"
                 }
             ]
         },
@@ -71,21 +72,21 @@
         {
             "type": "ImageWidget", "name": "background_right_arm_selected",
             "fields": {
-                "rect": { "x": 99, "y": 179 },
+                "rect": { "x": 99, "y": 100 },
                 "filename": "PANEL\\Inventory\\Tab",
             },
         },
         {
             "type": "ImageWidget", "name": "background_left_arm_selected",
             "fields": {
-                "rect": { "x": 850, "y": 179 },
+                "rect": { "x": 850, "y": 100 },
                 "filename": "PANEL\\Inventory\\Tab",
             },
         },
         {
             "type": "ImageWidget", "name": "background_right_arm",
             "fields": {
-                "rect": { "x": 99, "y": 179 },
+                "rect": { "x": 99, "y": 100 },
                 "filename": "PANEL\\Inventory\\Tab",
                 "frame": 1,
             },
@@ -93,7 +94,7 @@
         {
             "type": "ImageWidget", "name": "background_left_arm",
             "fields": {
-                "rect": { "x": 850, "y": 179 },
+                "rect": { "x": 850, "y": 100 },
                 "filename": "PANEL\\Inventory\\Tab",
                 "frame": 1,
             },
@@ -120,7 +121,7 @@
         {
             "type": "TextBoxWidget", "name": "text_i_left",
             "fields": {
-                "rect": { "x": 99, "y": 180, "width": 107, "height": 48 },
+                "rect": { "x": 99, "y": 100, "width": 107, "height": 48 },
                 "text": "I",
                 "style": "$StyleWeaponSwapTabs",
             },
@@ -128,7 +129,7 @@
         {
             "type": "TextBoxWidget", "name": "text_ii_left",
             "fields": {
-                "rect": { "x": 205, "y": 180, "width": 107, "height": 48 },
+                "rect": { "x": 205, "y": 100, "width": 107, "height": 48 },
                 "text": "II",
                 "style": "$StyleWeaponSwapTabs",
             },
@@ -136,7 +137,7 @@
         {
             "type": "TextBoxWidget", "name": "text_i_right",
             "fields": {
-                "rect": { "x": 850, "y": 180, "width": 107, "height": 48 },
+                "rect": { "x": 850, "y": 100, "width": 107, "height": 48 },
                 "text": "I",
                 "style": "$StyleWeaponSwapTabs",
             },
@@ -144,7 +145,7 @@
         {
             "type": "TextBoxWidget", "name": "text_ii_right",
             "fields": {
-                "rect": { "x": 956, "y": 180, "width": 107, "height": 48 },
+                "rect": { "x": 956, "y": 100, "width": 107, "height": 48 },
                 "text": "II",
                 "style": "$StyleWeaponSwapTabs",
             },
@@ -152,13 +153,13 @@
         {
             "type": "FocusableWidget", "name": "weaponswap_right_arm",
             "fields": {
-                "rect": { "x": 99, "y": 179, "width": 215, "height": 48 },
+                "rect": { "x": 99, "y": 100, "width": 215, "height": 48 },
             },
         },
         {
             "type": "FocusableWidget", "name": "weaponswap_left_arm",
             "fields": {
-                "rect": { "x": 850, "y": 179, "width": 215, "height": 48 },
+                "rect": { "x": 850, "y": 100, "width": 215, "height": 48 },
             },
         },
     ]

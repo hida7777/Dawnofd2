@@ -18,19 +18,19 @@
             "fields": {
                 "anchor": { "x": 0.5, "y": 0.5 },
                 "rect":{"x":-508, "y":-700},
-                "filename": "Controller/Panel/InventoryPanel/V2/InventoryBG_Classic",
+                "filename": "Controller/Panel/InventoryPanel/V2/InventoryBG_Edit",
             },
         },
         {
             "type": "TextBoxWidget", "name": "gold_amount",
             "fields": {
-                "rect": { "x": 605, "y": 1334, "width": 257, "height": 48 },
+                "rect": { "x": 605, "y": 1729, "width": 257, "height": 48 },
             }
         },
         {
             "type": "ButtonWidget", "name": "gold_button",
             "fields": {
-                "rect": { "x": 551, "y": 1334, "width": 317, "height": 44 },
+                "rect": { "x": 551, "y": 1729, "width": 317, "height": 44 },
                 "filename": "Controller/Panel/Stash/V2/Button_Small",
                 "focusIndicatorFilename": "Controller/HoverImages/GoldButton_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
@@ -192,6 +192,7 @@
                 "cellPadding": { "x": 31, "y": 15 },
                 "cellSize": "$ItemCellSize",
                 "controllerDefaultItemTransparency": 0.0,
+                "controllerColumnDefaultItems": [ "healthPotion", "manaPotion", "rejuvinationPotion", "townPortalScroll" ],
             },
             "children": [
                 {

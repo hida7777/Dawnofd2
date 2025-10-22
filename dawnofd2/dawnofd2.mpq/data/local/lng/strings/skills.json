@@ -51713,5 +51713,20 @@
     "ptBR": "Archmage",
     "ruRU": "Архимаг",
     "zhCN": "大师"
+  },
+  {
+    "id": 95001,
+    "Key": "skillname496",
+    "enUS": "ÿc1Charm Weight Activeÿc3",
+  },
+  {
+    "id": 95002,
+    "Key": "skillld496",
+    "enUS": "ÿc1Charm Weight Activeÿc3",
+  },
+  {
+    "id": 95003,
+    "Key": "skillan496",
+    "enUS": "ÿc1Charm Weight Activeÿc3",
   }
 ]
