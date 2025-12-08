@@ -904,5 +904,14 @@
   { "245": { "asset": "..\\..\\_Tenebris_UI/Items/hell_map" } },
   { "246": { "asset": "..\\..\\_Tenebris_UI/Items/hell_map" } },
   { "247": { "asset": "..\\..\\_Tenebris_UI/Items/hell_map" } },
-  { "248": { "asset": "..\\..\\_Tenebris_UI/Items/hell_map" } }
+  { "248": { "asset": "..\\..\\_Tenebris_UI/Items/hell_map" } },
+  { "ulx": { "asset": "gem/unidentified_elixir" } },
+  { "plx": { "asset": "gem/physical_elixir" } },
+  { "pxx": { "asset": "gem/poison_elixir" } },
+  { "ltx": { "asset": "gem/lightning_elixir" } },
+  { "flx": { "asset": "gem/fire_elixir" } },
+  { "clx": { "asset": "gem/cold_elixir" } },
+  { "mgx": { "asset": "gem/magic_elixir" } },
+  { "llx": { "asset": "gem/lucky_elixir" } },
+  { "uic": { "asset": "..\\..\\_Tenebris_UI/Items/unidentified_catalyst" } }
 ]

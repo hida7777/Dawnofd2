@@ -6,7 +6,12 @@
         "inactiveWeaponSwapFontColor": "$TabsInactiveTextColor",
     },
     "children": [
-
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": { "x": 0, "y": 0, "width": 1800, "height": 1737 },
+            },
+        },
         {
             "type": "ImageWidget", "name": "background",
             "fields": {

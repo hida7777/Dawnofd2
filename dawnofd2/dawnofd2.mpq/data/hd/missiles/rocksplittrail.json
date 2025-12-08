@@ -399,74 +399,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_vfx",
-            "id": 751606778,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_VfxDefinitionComponent",
-                    "filename": "data/hd/vfx/particles/missiles/expansion_hurricane_swoosh/vfx_hurricane_swoosh.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 1,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "entity_vfx",
-            "id": 751606778,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_VfxDefinitionComponent",
-                    "filename": "data/hd/vfx/particles/missiles/expansion_hurricane_swoosh/vfx_hurricane_swoosh.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 1,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_vfx1",
             "id": 983999369,
             "components": [
@@ -501,24 +433,12 @@
         },
         {
             "type": "Entity",
-            "name": "model_entity",
-            "id": 459011156,
+            "name": "entity_vfx1",
+            "id": 983999369,
             "components": [
                 {
-                    "type": "ModelDefinitionComponent",
-                    "name": "model_entity_ModelDefinitionComponent",
-                    "filename": "data/hd/vfx/meshes/fx_mesh_shrine_magic_ice_cave_crystal_2_lod0.model", 
-                    "visibleLayers": 1,
-                    "lightMask": 19,
-                    "shadowMask": 3,
-                    "ghostShadows": false,
-                    "floorModel": false,
-                    "terrainBlendEnableYUpBlend": false,
-                    "terrainBlendMode": 1
-                },
-                {
                     "type": "TransformDefinitionComponent",
-                    "name": "model_entity_TransformDefinition",
+                    "name": "component_transform1",
                     "position": {
                         "x": 0.0,
                         "y": 3.0,
@@ -531,9 +451,215 @@
                         "w": 1.0
                     },
                     "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx1_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/rock_large/duriel_rock_large.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1051574770,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_jah_rune",
+                    "filename": "data/hd/items/misc/rune/jah_rune/jah_rune.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0.0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "scale": {
+                        "x": 6.0,
+                        "y": 50.0,
+                        "z": 6.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1051574770,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_jah_rune",
+                    "filename": "data/hd/items/misc/rune/jah_rune/jah_rune.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
                         "x": 3.0,
-                        "y": 3.0,
-                        "z": 3.0
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0.0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "scale": {
+                        "x": 5.0,
+                        "y": 20.0,
+                        "z": 5.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1051574770,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_jah_rune",
+                    "filename": "data/hd/items/misc/rune/jah_rune/jah_rune.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": -3.0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0.0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "scale": {
+                        "x": 5.0,
+                        "y": 20.0,
+                        "z": 5.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1051574770,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_jah_rune",
+                    "filename": "data/hd/items/misc/rune/jah_rune/jah_rune.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0,
+                        "z": 3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0.0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "scale": {
+                        "x": 5.0,
+                        "y": 20.0,
+                        "z": 5.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1051574770,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_jah_rune",
+                    "filename": "data/hd/items/misc/rune/jah_rune/jah_rune.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0,
+                        "z": -3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0.0,
+                        "z": 0,
+                        "w": 0
+                    },
+                    "scale": {
+                        "x": 5.0,
+                        "y": 20.0,
+                        "z": 5.0
                     },
                     "inheritOnlyPosition": false
                 }
